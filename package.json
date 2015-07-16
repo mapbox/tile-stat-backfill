@@ -1,0 +1,25 @@
+{
+  "name": "tile-stat-backfill",
+  "version": "1.0.0",
+  "description": "generate statistics from existing vector tile datasets",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "tile",
+    "stat",
+    "backfill",
+    "vector",
+    "tile",
+    "mapbox"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "queue-async": "^1.0.7",
+    "request": "^2.58.0",
+    "tile-reduce": "^1.2.0",
+    "tile-stat-stream": "^1.0.3"
+  }
+}
